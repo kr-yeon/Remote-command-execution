@@ -13,7 +13,7 @@ def check():
         if sock.check():
             break
         else:
-            iport = requests.get("http://shes.kro.kr").text.split("\n")
+            iport = ["ip", "port"]
             sock.setconnect(iport[0].strip(), int(iport[1].strip()))
 
 t=Thread(target=check)
