@@ -1,2 +1,2 @@
 first. change server port
-second. 
+second. Run client files on the target computer
